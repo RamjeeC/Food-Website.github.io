@@ -1,0 +1,140 @@
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    /* font-family: Arial, sans-serif; */
+    font-family: Tahoma, sans-serif;
+}
+.container{
+    width:90%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width:786px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width:1200px){
+    .container {
+        max-width: 1152px; 
+    }
+}
+ .nav{
+    height:30px;
+    background-color: #171717;
+    font-family: gillroy;
+    display: flex;
+ 
+}
+.icon a{
+    color:white;
+    text-decoration: none;
+    padding:0 4px;
+ 
+   
+}
+.nav .auth a{
+    text-decoration: none;
+    color:white;
+    padding:0 4px;
+
+}
+.container .auth{
+    display: flex;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all .3s ease;
+    color: black;
+   
+  
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.navbar a:hover{
+    background-color:yellow;
+  
+}
+.navbar a.active{
+    background-color:yellow;
+    color:black;
+}
+.magic-shadow{
+    position: relative;
+    background-color: white;
+}
+.magic-shadow:after{
+    content: '';
+    display: block;
+    width:75%;
+    height:69px;
+    background-image: url(shadow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: -22px;
+    z-index:-1 ;
+    position:absolute;
+
+}
+.hero{
+    height:500px;
+    background-image: url(hero.png);
+    background-position: 0 0%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.welcome{
+ width:75%;
+ margin-left: 26vh;
+ margin-top: 25vh;
+
+
+}
+.btn{
+    padding: 0.50rem 0.75rem;
+    border: none;
+    margin-top: 2vh;
+}
+.btn-primary{
+    background-color: yellow;
+    color:black;
+}
+.btn-secondary{
+    background-color:#778899;
+    color:black;
+}
+
+.btn:hover{
+    background-color: yellow;
+    color:black
+}
+.stra{
+    position: absolute;
+    top:30vh;
+    right:35vh;
+    
+}
+.first-card h3{
+    text-align: center;
+  
+}
